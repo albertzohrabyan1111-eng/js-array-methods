@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hy">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>JS զանգվածի մեթոդներ</title>
+  
+  <!-- Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Noto+Sans+Armenian:wght@400;500;700&family=Noto+Serif+Armenian:wght@700;800&display=swap">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <div>
+        <p class="kicker">քո script.js-ի նշումներից</p>
+        <h1>JS զանգվածի մեթոդներ</h1>
+        <p class="lead">Ընտրիր մեթոդը ձախից։ Տես, թե ինչ է կատարվում զանգվածի հետ, գուշակիր արդյունքը և փոխիր կոդը՝ փորձարկելու համար։</p>
+      </div>
+      <div class="progress" aria-live="polite">
+        <div>Սովորած՝ <b id="pCount">0 / 0</b></div>
+        <div class="bar"><i id="pBar"></i></div>
+      </div>
+    </header>
+
+    <div class="shell">
+      <nav class="nav" aria-label="Մեթոդների ցանկ">
+        <div class="tools">
+          <input id="q" type="search" placeholder="Որոնել մեթոդ…" aria-label="Որոնել մեթոդ" autocomplete="off">
+          <select id="g" aria-label="Խումբ"></select>
+        </div>
+        <div id="navlist"></div>
+      </nav>
+      <main class="detail" id="detail"></main>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

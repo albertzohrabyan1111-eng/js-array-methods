@@ -1,0 +1,16 @@
+@media (max-width: 860px) {
+.top { grid-template-columns: 1fr; }
+.shell { grid-template-columns: 1fr; }
+.nav { position: static; max-height: 300px; }
+.cmpcols { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 480px) {
+.panel { padding: 14px; }
+.stage { padding: 12px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+* { transition: none !important; }
+}
